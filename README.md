@@ -4,7 +4,8 @@
 
 - [ESP-IDF programming guide](https://docs.espressif.com/projects/esp-idf/en/stable/index.html#)
 - [esp-idf git repository](https://github.com/espressif/esp-idf)
-- [heise developer - ESP32 to go](http://www.heise.de/-4452689)
+- [esp-idf-template git repository](https://github.com/espressif/esp-idf-template)
+- [heise Make Magazin 3/2019 page 94 | ESP32 - Vollzugriff](https://www.heise.de/select/make/2019/3/1561289652311894)
 
 **Q: Why using ESP-IDF?**
 
