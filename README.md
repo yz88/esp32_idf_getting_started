@@ -35,6 +35,12 @@ Follow the instructions on <https://docs.espressif.com/projects/esp-idf/en/stabl
     5. Close MSYS2 window and open it again. Check if `IDF_PATH` is set, by typing: `printenv IDF_PATH`
 12. Connect ESP32 via microUSB to your Windows PC and check the allocated COM port via Windows device manager. Use Windows like COM Port in the configuration of each project.
 13. [Start the first project](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#start-a-project)
+    - `cd esp-idf`
+    - `make -C make -C examples/get-started/hello_world/ menuconfig`
+    - `make -C make -C examples/get-started/hello_world/ all`
+    - `make -C make -C examples/get-started/hello_world/ erase_flash`
+    - `make -C make -C examples/get-started/hello_world/ flash`
+    - `make -C make -C examples/get-started/hello_world/ monitor`
 
 ## Update ESP-IDF
 
